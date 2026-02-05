@@ -23,6 +23,10 @@ for(let order of orders)
         currentOrder = order
         break
     }
+    else{
+
+        currentOrder = "11"
+    }
 }
 
 // currentOrder = 42 it will give us error now
